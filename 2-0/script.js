@@ -27,7 +27,6 @@ $(document).ready(function() {
 		}
 	}
 	$("button").click(function() {
-		debugger
 		if ($(this).attr('data-href')) {
 			document.location = $(this).attr('data-href');
 		}
